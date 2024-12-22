@@ -13,12 +13,45 @@ import { IoSchoolOutline } from "react-icons/io5";
 import { FaNetworkWired } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
 function WhatWeOffer() {
   return (
     <section className='text-center flex flex-col text-white bg-gray-900 w-full p-[2%]'>
-        <h1 className='text-4xl md:text-6xl font-bold mt-[10px] mb-[50px]'>What We Offer</h1>
+        <motion.h1 
+        initial={{
+            y:100,
+            opacity:0
+        }}
+        whileInView={{
+            y:0,
+            opacity:1
+        }}
+        transition={{
+            duration:1,
+            ease:"easeInOut"
+        }}
+        viewport={{
+            once:true
+        }}
+        className='text-4xl md:text-6xl font-bold mt-[10px] mb-[50px]'>What We Offer</motion.h1>
         <div className='flex flex-col-reverse md:flex-row items-center justify-between p-[2%]'>
-            <div className='w-full md:w-1/2 text-start my-[50px]'>
+            <motion.div
+             initial={{
+                x:-100,
+                opacity:0
+            }}
+            whileInView={{
+                x:0,
+                opacity:1
+            }}
+            transition={{
+                duration:1,
+                ease:"easeInOut"
+            }}
+            viewport={{
+                once:true
+            }}
+            className='w-full md:w-1/2 text-start my-[50px]'>
                 <h2 className='text-2xl font-bold'>Personal Growth Mastery</h2>
                 <p>Transform your personal life with our comprehensive development programs that focus on:</p>
                 <div className='pgrowth my-[50px]'>
@@ -48,11 +81,43 @@ function WhatWeOffer() {
                     </div>
                 </div>
                 <Link><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
-            </div>
-            <img className='w-full md:w-[45%] rounded-[5px]' src="/images/pgrowthms.webp" alt="personalgrowthmastery" />
+            </motion.div>
+            <motion.img 
+               initial={{
+                x:100,
+                opacity:0
+            }}
+            whileInView={{
+                x:0,
+                opacity:1
+            }}
+            transition={{
+                duration:1,
+                ease:"easeInOut"
+            }}
+            viewport={{
+                once:true
+            }}
+            className='w-full md:w-[45%] rounded-[5px]' src="/images/pgrowthms.webp" alt="personalgrowthmastery" />
         </div>
         <div className='flex flex-col-reverse md:flex-row items-center justify-between p-[2%]'>
-            <div className='w-full md:w-1/2 text-start my-[50px]'>
+            <motion.div 
+               initial={{
+                x:-100,
+                opacity:0
+            }}
+            whileInView={{
+                x:0,
+                opacity:1
+            }}
+            transition={{
+                duration:1,
+                ease:"easeInOut"
+            }}
+            viewport={{
+                once:true
+            }}
+            className='w-full md:w-1/2 text-start my-[50px]'>
                 <h2 className='text-2xl font-bold'>Financial Excellence</h2>
                 <p>Master your financial future with strategies designed for sustainable wealth creation:</p>
                 <div className='pgrowth my-[50px]'>
@@ -82,11 +147,43 @@ function WhatWeOffer() {
                     </div>
                 </div>
                 <Link><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
-            </div>
-            <img className='w-full md:w-[45%] rounded-[5px]' src="/images/fexcellence.jpg" alt="fexcellence" />
+            </motion.div>
+            <motion.img
+               initial={{
+                x:100,
+                opacity:0
+            }}
+            whileInView={{
+                x:0,
+                opacity:1
+            }}
+            transition={{
+                duration:1,
+                ease:"easeInOut"
+            }}
+            viewport={{
+                once:true
+            }}
+            className='w-full md:w-[45%] rounded-[5px]' src="/images/fexcellence.jpg" alt="fexcellence" />
         </div>
         <div className='flex flex-col-reverse md:flex-row items-center justify-between p-[2%]'>
-            <div className='w-full md:w-1/2 text-start my-[50px]'>
+            <motion.div 
+               initial={{
+                x:-100,
+                opacity:0
+            }}
+            whileInView={{
+                x:0,
+                opacity:1
+            }}
+            transition={{
+                duration:1,
+                ease:"easeInOut"
+            }}
+            viewport={{
+                once:true
+            }}
+            className='w-full md:w-1/2 text-start my-[50px]'>
                 <h2 className='text-2xl font-bold'>Career Advancement</h2>
                 <p>Accelerate your professional growth with our proven career development programs:</p>
                 <div className='pgrowth my-[50px]'>
@@ -116,8 +213,24 @@ function WhatWeOffer() {
                     </div>
                 </div>
                 <Link><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
-            </div>
-            <img className='w-full md:w-[45%] rounded-[5px]' src="/images/cadvancement.webp" alt="cadvancement" />
+            </motion.div>
+            <motion.img
+               initial={{
+                x:100,
+                opacity:0
+            }}
+            whileInView={{
+                x:0,
+                opacity:1
+            }}
+            transition={{
+                duration:1,
+                ease:"easeInOut"
+            }}
+            viewport={{
+                once:true
+            }}
+            className='w-full md:w-[45%] rounded-[5px]' src="/images/cadvancement.webp" alt="cadvancement" />
         </div>
     </section>
   )

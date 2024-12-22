@@ -12,6 +12,10 @@
   font-family: DM;
 }
 
+nav{
+  z-index: 10;
+}
+
 body{
   font-family: DM;
   height: 100vh;
