@@ -14,5 +14,31 @@
 
 body{
   font-family: DM;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #111827;
 }
 
+.pgrowth{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 25px;
+}
+
+.holsgrid{
+  padding: 2%;
+  width: 100%;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+@media(max-width:400px){
+  .holsgrid{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

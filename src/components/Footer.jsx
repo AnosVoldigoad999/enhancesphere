@@ -1,8 +1,26 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Footer() {
   return (
-    <div>Footer</div>
+    <section className='mt-[100px] text-center bg-[#1F2937] flex flex-col text-[#D1D5DB] p-[2%]'>
+        <div className='flex items-center w-full'>
+            <div className='text-start mx-[20px] min-h-[200px] h-[fit-content]'>
+                <h2 className='text-white text-xl'>EnhanceSphere</h2>
+                <p>Transforming lives, careers, and financial futures.</p>
+            </div>
+            <div className='text-start mx-[20px] min-h-[200px] h-[fit-content]'>
+                <h2 className='text-white text-xl'>Quick Links</h2>
+                <ul>
+                    <Link><li className='my-[10px]'>Home</li></Link>
+                    <Link><li className='my-[10px]'>About</li></Link>
+                    <Link><li className='my-[10px]'>Services</li></Link>
+                    <Link><li className='my-[10px]'>Contact</li></Link>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <p className='m-[20px]'>© 2024 EnhanceSphere. All rights reserved.</p>
+    </section>
   )
 }
 
