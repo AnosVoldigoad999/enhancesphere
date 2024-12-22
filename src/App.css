@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: DM;
+  src: url(../public/DM_SANS/DMSans-VariableFont.ttf);
+}
+
+*{
+  margin:0;
+  font-family: DM;
+}
+
+body{
+  font-family: DM;
+}
+
