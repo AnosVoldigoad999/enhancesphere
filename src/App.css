@@ -26,8 +26,6 @@ body{
 }
 main{
   width: 100%;
-  overflow-x: hidden;
-  height: fit-content;
 }
 
 .pgrowth{
