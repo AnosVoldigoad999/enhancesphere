@@ -19,7 +19,7 @@ function Nav() {
     })
     const [showMenu, setShowMenu] = useState(false)
   return (
-    <nav className='fixed flex items-center justify-between left-0 right-0 top-0 p-[2%] h-[90px] /*bg-gray-900*/ nav '>
+    <nav className='fixed flex items-center justify-between w-[100vw] top-0 p-[2%] h-[90px] /*bg-gray-900*/ nav '>
       <AnimatePresence>
       {
         isScrolling && <motion.div 

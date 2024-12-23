@@ -9,7 +9,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 function App() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col overflow-x-hidden'>
       <Nav />
       <main className='/*mt-[90px]*/'>
         <Routes>
