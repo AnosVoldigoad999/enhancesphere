@@ -1,6 +1,7 @@
 import React from 'react'
 import { FiArrowRight } from "react-icons/fi";
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 function Explore() {
   return (
     <section className='text-white w-full flex flex-col mt-[50px]  items-center text-center p-[2%]'>
@@ -102,7 +103,7 @@ function Explore() {
                 <p>Access our extensive library of resources and cutting-edge tools to support your journey.</p>
             </motion.div>
         </div>
-        <motion.button
+        <Link to="/contact"><motion.button
         initial={{
             y:100,
             opacity:0
@@ -119,7 +120,7 @@ function Explore() {
             ease:"easeInOut",
             delay:0.07
         }}
-        className='mt-[50px] bg-[#9333EA] p-[1%] rounded-[5px]'>Get Started Now</motion.button>
+        className='mt-[50px] bg-[#9333EA] p-[1%] rounded-[5px]'>Get Started Now</motion.button></Link>
     </section>
   )
 }
