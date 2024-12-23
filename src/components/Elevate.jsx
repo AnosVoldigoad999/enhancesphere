@@ -7,6 +7,7 @@ import { FiArrowRight } from "react-icons/fi";
 import { motion } from 'framer-motion';
 import servicethings from "./servicesthings.json"
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import { Link } from 'react-router-dom';
 function Elevate() {
     const [show1, setShow1] = useState(false)
     const [show2, setShow2] = useState(false)
@@ -46,7 +47,7 @@ function Elevate() {
                     })}
                 </div>
                 }
-                <button className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'>Learn More <FiArrowRight /></button>
+                <Link to="/contact" className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'><button className='flex items-center w-full justify-between' >Learn More <FiArrowRight /></button></Link>
             </motion.div>
             <motion.div
              initial={{
@@ -79,7 +80,7 @@ function Elevate() {
                     })}
                 </div>
                 }
-                <button className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'>Learn More <FiArrowRight /></button>
+                  <Link to="/contact" className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'><button className='flex items-center w-full justify-between' >Learn More <FiArrowRight /></button></Link>
             </motion.div>
             <motion.div 
             initial={{
@@ -112,7 +113,7 @@ function Elevate() {
                     })}
                 </div>
                 }
-                <button className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'>Learn More <FiArrowRight /></button>
+                <Link to="/contact" className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'><button className='flex items-center w-full justify-between' >Learn More <FiArrowRight /></button></Link>
             </motion.div>
             <motion.div
             initial={{
@@ -145,7 +146,7 @@ function Elevate() {
                     })}
                 </div>
                 }
-                <button className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'>Learn More <FiArrowRight /></button>
+                  <Link to="/contact" className='bg-[#9333EA] flex items-center w-[90%] rounded-[5px] mb-[30px] justify-between p-[2%]'><button className='flex items-center w-full justify-between' >Learn More <FiArrowRight /></button></Link>
             </motion.div>
         </div>
     </section>
