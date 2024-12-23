@@ -1,8 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 function Hero() {
   return (
-    <section className='overflow-x-hidden flex flex-col h-[calc(100vh-90px)] items-center text-center justify-center w-full bg-[#111827E6] text-white'>
+    <section className='hero flex flex-col h-[100vh] items-center text-center justify-center w-full bg-[#111827E6] text-white'>
         <motion.h1
         initial={{
             x:100,
@@ -45,8 +46,8 @@ function Hero() {
             ease:"easeInOut"
         }}
         className='flex w-full justify-center'>
-            <button className='cursor-pointer bg-[#9333EA] p-[2%] mx-[10px] rounded-[5px]'>Start Your Journey</button>
-            <button className='cursor-pointer bg-[#020817] p-[2%] text-white mx-[10px] rounded-[5px]'>Learn More</button>
+            <Link className='cursor-pointer bg-[#9333EA] p-[2%] mx-[10px] rounded-[5px]'><button >Start Your Journey</button></Link>
+            <Link className='cursor-pointer bg-[#020817] p-[2%] text-white mx-[10px] rounded-[5px]'><button >Learn More</button></Link>
         </motion.div>
     </section>
   )

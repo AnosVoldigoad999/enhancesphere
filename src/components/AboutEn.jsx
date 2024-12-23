@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 function AboutEn() {
   return (
     <section className='text-white w-full flex flex-col  items-center text-center'>
+        <div className='abouthero flex flex-col items-center justify-center'>
         <motion.h1 
           initial={{
             y:100,
@@ -37,6 +38,7 @@ function AboutEn() {
             ease:"easeInOut"
         }}
         className='w-90% md:w-[60%] text-xl'>At EnhanceSphere, we believe in the power of holistic growth. Our mission is to empower individuals and businesses to reach their fullest potential by providing comprehensive strategies that address personal, financial, and professional aspects of life.</motion.p>
+        </div>
         <div className='flex flex-col md:flex-row items-center justify-center mt-[50px]'>
             <motion.div 
               initial={{

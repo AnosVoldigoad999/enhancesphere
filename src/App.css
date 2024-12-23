@@ -14,6 +14,23 @@
 
 nav{
   z-index: 10;
+  position: relative;
+}
+
+
+
+.navback{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(20px) brightness(.95);
+  background-color: rgb(250 250 250 / 55%);
+}
+
+nav h1, nav ul{
+  z-index: 1;
 }
 
 body{
@@ -21,8 +38,92 @@ body{
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #111827;
+  /*background-color: #111827;*/
+  background-color: white;
   width: 100vw;
+}
+
+
+.hero{
+  background: url(../public/images/herobanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.servicehero{
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  background: url(../public/images/serviceshero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicehero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.abouthero{
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  background: url(../public/images/abouthero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.abouthero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.contacthero{
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  background: url(../public/images/contacthero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacthero::before{
+  content: "";
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+section h1, section p, section div{
+  z-index: 1;
 }
 
 

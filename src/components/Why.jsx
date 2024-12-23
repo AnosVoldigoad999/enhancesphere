@@ -3,7 +3,7 @@ import { FaChevronRight } from "react-icons/fa";
 import { motion } from 'framer-motion'
 function Why() {
   return (
-    <section className='overflow-x-hidden text-white w-full flex flex-col  items-center text-center'>
+    <section className='text-black w-full flex flex-col  items-center text-center'>
         <motion.h1 
          initial={{
             y:100,
@@ -39,7 +39,7 @@ function Why() {
                 viewport={{
                     once:true
                 }}
-                className='my-[10px] flex bg-[#374151] p-[3%] text-start'>
+                className='my-[10px] flex bg-[#374151] p-[3%] text-start bg-[hsla(0,_0%,_0%,_0.2)]'>
                     <FaChevronRight className='text-[#9333EA] mt-[1%] mr-[10px]' />
                     <div>
                      <h2 className='text-xl font-bold'>Comprehensive Coverage</h2>
@@ -63,7 +63,7 @@ function Why() {
                 viewport={{
                     once:true
                 }}
-                className='my-[10px] flex bg-[#374151] p-[3%] text-start'>
+                className='my-[10px] flex bg-[#374151] p-[3%] text-start bg-[hsla(0,_0%,_0%,_0.2)]'>
                     <FaChevronRight className='text-[#9333EA] mt-[1%] mr-[10px]' />
                     <div>
                      <h2 className='text-xl font-bold'>Industry Expertise</h2>
@@ -87,7 +87,7 @@ function Why() {
                 viewport={{
                     once:true
                 }}
-                className='my-[10px] flex bg-[#374151] p-[3%] text-start'>
+                className='my-[10px] flex bg-[#374151] p-[3%] text-start bg-[hsla(0,_0%,_0%,_0.2)]'>
                     <FaChevronRight className='text-[#9333EA] mt-[1%] mr-[10px]' />
                     <div>
                      <h2 className='text-xl font-bold'>Results-Oriented Approach</h2>
@@ -111,7 +111,7 @@ function Why() {
                 viewport={{
                     once:true
                 }}
-                className='my-[10px] flex bg-[#374151] p-[3%] text-start'>
+                className='my-[10px] flex bg-[#374151] p-[3%] text-start bg-[hsla(0,_0%,_0%,_0.2)]'>
                     <FaChevronRight className='text-[#9333EA] mt-[1%] mr-[10px]' />
                     <div>
                      <h2 className='text-xl font-bold'>Personalized Solutions</h2>

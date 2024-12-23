@@ -15,7 +15,40 @@ function Elevate() {
     const [show4, setShow4] = useState(false)
   return (
     <section className='text-white w-full flex flex-col  items-center text-center'>
-        <h1 className='text-4xl md:text-6xl font-bold mt-[10px] mb-[50px]'>Elevate Your Potential</h1>
+        <div className='servicehero flex flex-col items-center justify-center'>
+        <motion.h1
+               initial={{
+                y:100,
+                opacity:0
+            }}
+            whileInView={{
+                y:0,
+                opacity:1
+            }}
+            viewport={{
+                once:true
+            }}
+            transition={{
+                duration:0.7,
+                ease:"easeInOut"
+            }} className='text-4xl md:text-6xl font-bold mt-[10px]'>Elevate Your Potential</motion.h1>
+        <motion.p initial={{
+            y:100,
+            opacity:0
+        }}
+        whileInView={{
+            y:0,
+            opacity:1
+        }}
+        viewport={{
+            once:true
+        }}
+        transition={{
+            duration:0.7,
+            ease:"easeInOut"
+        }}
+        className='text-xl md:text-3xl my-[30px] w-[70%]'>Unlock new heights in your personal and professional journey. Our expert consulting services are designed to help you refine your strategies, overcome challenges, and achieve your goals. Elevate your potential with tailored solutions that drive success.</motion.p>
+        </div>
         <div className='elegrid'>
             <motion.div
             initial={{
@@ -33,8 +66,8 @@ function Elevate() {
                 duration:0.7,
                 ease:"easeInOut"
             }}
-            className=' flex flex-col items-center bg-[#1F2937]'>
-                <div className='flex items-center justify-center  h-[100px]  w-full bg-[#9333EA]'>
+            className=' flex flex-col items-center bg-[hsla(0,_0%,_0%,_0.2)] text-black'>
+                <div className='flex items-center justify-center  h-[100px]  w-full bg-purple-600'>
                     <FaRegHeart className='mr-[10px] w-[45px] h-[45px] p-[1.5%] bg-gray-900  rounded-[50%] text-purple-400' />
                     <h2 className='text-xl'>Personal Development</h2>
                 </div>
@@ -66,8 +99,8 @@ function Elevate() {
                 ease:"easeInOut",
                 delay:0.07
             }}
-            className=' flex flex-col items-center bg-[#1F2937]'>
-                <div className='flex items-center justify-center  h-[100px]  w-full bg-[#1E3A8A]'>
+            className=' flex flex-col items-center bg-[hsla(0,_0%,_0%,_0.2)] text-black'>
+                <div className='flex items-center justify-center  h-[100px]  w-full bg-blue-600'>
                     <CiWallet className='mr-[10px] w-[45px] h-[45px] p-[1.5%] bg-gray-900  rounded-[50%] text-blue-400' />
                     <h2 className='text-xl'>Financial Development</h2>
                 </div>
@@ -99,8 +132,8 @@ function Elevate() {
                 ease:"easeInOut",
                 delay:0.07*2
             }}
-            className=' flex flex-col items-center bg-[#1F2937]'>
-                <div className='flex items-center justify-center  h-[100px]  w-full bg-[#14532D]'>
+            className=' flex flex-col items-center bg-[hsla(0,_0%,_0%,_0.2)] text-black'>
+                <div className='flex items-center justify-center  h-[100px]  w-full bg-green-600'>
                     <MdOutlineBusinessCenter className='mr-[10px] w-[45px] h-[45px] p-[1.5%] bg-gray-900  rounded-[50%] text-green-400' />
                     <h2 className='text-xl'>Professional Development</h2>
                 </div>
@@ -132,8 +165,8 @@ function Elevate() {
                 ease:"easeInOut",
                 delay:0.07*3
             }}
-            className=' flex flex-col items-center bg-[#1F2937]'>
-                <div className='flex items-center justify-center  h-[100px]  w-full bg-[#422006]'>
+            className=' flex flex-col items-center bg-[hsla(0,_0%,_0%,_0.2)] text-black'>
+                <div className='flex items-center justify-center  h-[100px]  w-full bg-yellow-600'>
                     <FaChartLine className='mr-[10px] w-[45px] h-[45px] p-[1.5%] bg-gray-900  rounded-[50%] text-yellow-400' />
                     <h2 className='text-xl'>Business Support</h2>
                 </div>

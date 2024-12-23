@@ -24,7 +24,7 @@ function WhyEn() {
             ease:"easeInOut"
         }}
         className='text-4xl md:text-6xl font-bold mt-[10px] mb-[50px] text-[#C084FC]'>Why EnhanceSphere Stands Out</motion.h1>
-        <div className='whyengrid'>
+        <div className='whyengrid text-black'>
             <motion.div 
               initial={{
                 y:100,
@@ -41,9 +41,9 @@ function WhyEn() {
                 duration:0.7,
                 ease:"easeInOut"
             }}
-            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[#1F2937]'>
+            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[hsla(0,_0%,_0%,_0.2)]'>
                 <div className='flex items-center'>
-                    <IoMdCheckmarkCircleOutline className='w-[20px] h-[30px] mr-[10px] text-green-400' />
+                    <IoMdCheckmarkCircleOutline className='w-[20px] h-[30px] mr-[10px] text-green-600' />
                     <h2 className='text-xl'>Comprehensive Coverage</h2>
                 </div>
                 <p className='my-[20px]'>We don't just focus on one area of growth; we enhance every aspect of your life to ensure holistic development and success.</p>
@@ -65,9 +65,9 @@ function WhyEn() {
                 ease:"easeInOut",
                 delay:0.07
             }}
-            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[#1F2937]'>
+            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[hsla(0,_0%,_0%,_0.2)]'>
                 <div className='flex items-center'>
-                    <MdOutlineBusinessCenter className='w-[20px] h-[30px] mr-[10px] text-blue-400' />
+                    <MdOutlineBusinessCenter className='w-[20px] h-[30px] mr-[10px] text-blue-600' />
                     <h2 className='text-xl'>Industry Expertise</h2>
                 </div>
                 <p className='my-[20px]'>Our team includes certified life coaches, financial planners, and professional mentors with years of experience in their respective fields.</p>
@@ -89,9 +89,9 @@ function WhyEn() {
                 ease:"easeInOut",
                 delay:0.07*2
             }}
-            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[#1F2937]'>
+            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[hsla(0,_0%,_0%,_0.2)]'>
                 <div className='flex items-center'>
-                    <GrLineChart className='w-[20px] h-[30px] mr-[10px] text-purple-400' />
+                    <GrLineChart className='w-[20px] h-[30px] mr-[10px] text-purple-600' />
                     <h2 className='text-xl'>Results-Oriented Approach</h2>
                 </div>
                 <p className='my-[20px]'>Our strategies are practical, measurable, and results-driven. We focus on tangible outcomes that make a real difference in your life and career.</p>
@@ -113,9 +113,9 @@ function WhyEn() {
                 ease:"easeInOut",
                 delay:0.07*3
             }}
-            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[#1F2937]'>
+            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[hsla(0,_0%,_0%,_0.2)]'>
                 <div className='flex items-center'>
-                    <GoPeople className='w-[20px] h-[30px] mr-[10px] text-yellow-400' />
+                    <GoPeople className='w-[20px] h-[30px] mr-[10px] text-yellow-600' />
                     <h2 className='text-xl'>Personalized Solutions</h2>
                 </div>
                 <p className='my-[20px]'>We understand that every individual and business is unique. That's why we tailor our programs to your specific needs, goals, and circumstances.</p>
@@ -137,9 +137,9 @@ function WhyEn() {
                 ease:"easeInOut",
                 delay:0.07*4
             }}
-            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[#1F2937]'>
+            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[hsla(0,_0%,_0%,_0.2)]'>
                 <div className='flex items-center'>
-                    <IoMdCheckmarkCircleOutline className='w-[20px] h-[30px] mr-[10px] text-orange-400' />
+                    <IoMdCheckmarkCircleOutline className='w-[20px] h-[30px] mr-[10px] text-orange-600' />
                     <h2 className='text-xl'>Cutting-Edge Methodologies</h2>
                 </div>
                 <p className='my-[20px]'>We stay at the forefront of personal development, financial strategies, and professional growth techniques to bring you the most effective solutions.</p>
@@ -161,9 +161,9 @@ function WhyEn() {
                 ease:"easeInOut",
                 delay:0.07*5
             }}
-            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[#1F2937]'>
+            className='m-[10px] flex flex-col items-center justify-center p-[20px] md:p-[30px] bg-[hsla(0,_0%,_0%,_0.2)]'>
                 <div className='flex items-center'>
-                    <GrLineChart className='w-[20px] h-[30px] mr-[10px] text-blue-400' />
+                    <GrLineChart className='w-[20px] h-[30px] mr-[10px] text-blue-600' />
                     <h2 className='text-xl'>Holistic Integration</h2>
                 </div>
                 <p className='my-[20px]'>Our unique approach integrates personal well-being, financial success, and professional growth, recognizing that these areas are interconnected in our lives.</p>
