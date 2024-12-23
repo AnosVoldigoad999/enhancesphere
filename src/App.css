@@ -19,6 +19,8 @@ nav{
 
 section{
   overflow-x: hidden;
+  height: fit-content;
+  overflow-y: auto;
 }
 
 .navback{
