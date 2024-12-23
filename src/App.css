@@ -39,10 +39,47 @@ body{
 }
 
 
+.elegrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+  padding: 2%;
+}
+.whyengrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
 @media(max-width:400px){
   .holsgrid{
     display: flex;
     flex-direction: column;
   }
   
+  .whyengrid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .whyengrid div{
+    width: 100%;
+  }
+  
+}
+
+@media(max-width:500px){
+  .elegrid{
+    display: flex;
+    flex-direction: column;
+  }
+  .elegrid div{
+    width: 100%;
+  }
+}
+
+
+.link:hover{
+  background-color: hsla(0, 100%, 100%, 0.1);
 }
