@@ -103,7 +103,7 @@ function Explore() {
                 <p>Access our extensive library of resources and cutting-edge tools to support your journey.</p>
             </motion.div>
         </div>
-        <Link to="/contact" className='mt-[50px] bg-[#9333EA] p-[1%] rounded-[5px]'><motion.button
+        <Link to="/contact" className='w-[200px] '><motion.button
         initial={{
             y:100,
             opacity:0
@@ -120,7 +120,7 @@ function Explore() {
             ease:"easeInOut",
             delay:0.07
         }}
-        >Get Started Now</motion.button></Link>
+        className='mt-[50px] bg-[#9333EA] w-full h-full py-[20px] rounded-[5px]'>Get Started Now</motion.button></Link>
     </section>
   )
 }
