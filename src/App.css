@@ -22,7 +22,9 @@ body{
   overflow-x: hidden;
   overflow-y: auto;
   background-color: #111827;
+  width: 100vw;
 }
+
 
 .pgrowth{
   display: grid;
