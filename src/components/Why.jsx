@@ -3,7 +3,7 @@ import { FaChevronRight } from "react-icons/fa";
 import { motion } from 'framer-motion'
 function Why() {
   return (
-    <section className='text-white w-full flex flex-col  items-center text-center'>
+    <section className='overflow-x-hidden text-white w-full flex flex-col  items-center text-center'>
         <motion.h1 
          initial={{
             y:100,

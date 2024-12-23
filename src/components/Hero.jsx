@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 function Hero() {
   return (
-    <section className='flex flex-col h-[calc(100vh-90px)] items-center text-center justify-center w-full bg-[#111827E6] text-white'>
+    <section className='overflow-x-hidden flex flex-col h-[calc(100vh-90px)] items-center text-center justify-center w-full bg-[#111827E6] text-white'>
         <motion.h1
         initial={{
             x:100,

@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
 function WhatWeOffer() {
   return (
-    <section className='text-center flex flex-col text-white bg-gray-900 w-full p-[2%]'>
+    <section className='overflow-x-hidden text-center flex flex-col text-white bg-gray-900 w-full p-[2%]'>
         <motion.h1 
         initial={{
             y:100,

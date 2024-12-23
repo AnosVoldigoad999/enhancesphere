@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 function Holistic() {
   return (
-    <section className='text-white flex flex-col items-center w-full'>
+    <section className='overflow-x-hidden text-white flex flex-col items-center w-full'>
         <motion.h1
            initial={{
             y:100,
