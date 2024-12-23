@@ -17,7 +17,9 @@ nav{
   position: relative;
 }
 
-
+section{
+  overflow-x: hidden;
+}
 
 .navback{
   position: absolute;
