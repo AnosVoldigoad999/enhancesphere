@@ -80,7 +80,7 @@ function WhatWeOffer() {
                         <p>Motivation</p>
                     </div>
                 </div>
-                <Link><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
+                <Link to="/contact"><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
             </motion.div>
             <motion.img 
                initial={{
@@ -146,7 +146,7 @@ function WhatWeOffer() {
                         <p>Financial Literacy</p>
                     </div>
                 </div>
-                <Link><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
+                <Link to="/contact"><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
             </motion.div>
             <motion.img
                initial={{
@@ -212,7 +212,7 @@ function WhatWeOffer() {
                         <p>Team Management</p>
                     </div>
                 </div>
-                <Link><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
+                <Link to="/contact"><button className='w-full flex items-center justify-center bg-[#9333EA] p-[2%] rounded-[5px]'>Learn More <FiArrowRight /></button></Link>
             </motion.div>
             <motion.img
                initial={{

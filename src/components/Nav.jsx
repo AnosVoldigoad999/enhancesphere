@@ -47,14 +47,14 @@ function Nav() {
             <Link to="/contact" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%]  ${currentLocation==="/contact"?"bg-[#9333EA] text-white ":""}`}><li >Contact</li></Link>
             <Link to="/" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] bg-[#9333EA] text-white`}><li >Book a Call</li></Link>
         </ul>
-        {!showMenu?<RiMenu3Fill onClick={()=>{setShowMenu(!showMenu)}} className='block md:hidden w-[25px] h-[25px] text-white' />:<IoIosClose onClick={()=>{setShowMenu(!showMenu)}} className='block md:hidden w-[25px] h-[25px] text-white' />}
+        {!showMenu?<RiMenu3Fill onClick={()=>{setShowMenu(!showMenu)}} className={`block md:hidden w-[25px] h-[25px] ${isScrolling?"text-black":"text-white"} icon`} />:<IoIosClose onClick={()=>{setShowMenu(!showMenu)}} className={`block md:hidden w-[25px] h-[25px] ${isScrolling?"text-black":"text-white"} icon`} />}
        {
-        showMenu &&  <div className='p-[10px] flex flex-col items-center top-[90px] left-0 right-0 md:hidden fixed  z-[20] bg-gray-900'>
+        showMenu &&  <div className='mobilemenu p-[10px] flex flex-col items-center top-[90px] left-0 right-0 md:hidden fixed  z-[20] text-black'>
         <ul className='flex flex-col h-[100%] items-center justify-between w-full text-lg'>
-            <Link onClick={()=>{setShowMenu(false)}} to="/" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] text-[#D1D5DB]`}><li >Home</li></Link>
-            <Link onClick={()=>{setShowMenu(false)}} to="/services" className={`linkw-[fit-content] cursor-pointer rounded-[5px] p-[2%] text-[#D1D5DB]`}><li >Services</li></Link>
-            <Link onClick={()=>{setShowMenu(false)}} to="/about" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] text-[#D1D5DB] `}><li >About</li></Link>
-            <Link onClick={()=>{setShowMenu(false)}} to="/contact" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] text-[#D1D5DB]`} ><li >Contact</li></Link>
+            <Link onClick={()=>{setShowMenu(false)}} to="/" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] `}><li >Home</li></Link>
+            <Link onClick={()=>{setShowMenu(false)}} to="/services" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] `}><li >Services</li></Link>
+            <Link onClick={()=>{setShowMenu(false)}} to="/about" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] `}><li >About</li></Link>
+            <Link onClick={()=>{setShowMenu(false)}} to="/contact" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%] `} ><li >Contact</li></Link>
             <Link onClick={()=>{setShowMenu(false)}} to="/" className={`link w-[90%] cursor-pointer rounded-[5px] p-[2%] bg-[#9333EA] text-center text-white`}><li >Book a Call</li></Link>
         </ul>
         </div>
