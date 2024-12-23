@@ -39,7 +39,7 @@ function Nav() {
         className="navback" />
       }
       </AnimatePresence>
-        <h1 className={`text-xl md:text-3xl ${isScrolling?"text-black":"text-white"}`}>EnhanceSphere</h1>
+        <Link to="/" className='z-[1]'><h1 className={`text-xl md:text-3xl ${isScrolling?"text-black":"text-white"}`}>EnhanceSphere</h1></Link>
         <ul className={`hidden md:flex items-center justify-between w-1/2 text-lg ${isScrolling?"text-black":"text-white"}`}>
             <Link to="/" className={`link w-[fit-content] cursor-pointer rounded-[5px] p-[2%]  ${currentLocation==="/"?"bg-[#9333EA] text-white ":""}`}><li >Home</li></Link>
             <Link to="/services" className={`linkw-[fit-content] cursor-pointer rounded-[5px] p-[2%]  ${currentLocation==="/services"?"bg-[#9333EA] text-white ":""}`}><li >Services</li></Link>
